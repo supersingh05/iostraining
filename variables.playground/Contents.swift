@@ -40,3 +40,38 @@ hola = "hi"
 
 print(hola)
 
+
+//embed variable into string
+var name = "bob"
+print("his name is \(name)")
+
+//Integer data type
+var temp: Int = 85
+
+//Float, fractional component number, 6th digit precision
+var pi: Float = 3.14
+
+//Double, like a float, but twice the precision
+var long: Double = 5.12344
+
+// casting
+let three = 3
+let fraction = 0.14159
+//explicit conversion
+let p = Double(three) + fraction
+
+let integerPi = Int(pi)
+
+// Boolean
+let sunnyDay = false
+let isRaining = true
+
+if sunnyDay {
+    print("Beach Day")
+} else {
+    print ("nascat")
+}
+
+
+
+
